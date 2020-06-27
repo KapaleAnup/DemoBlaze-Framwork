@@ -1,3 +1,8 @@
 com/testcases/SignUpPageTests.class
 com/basetest/TestBase.class
+com/testcases/ProductSelectionTests.class
+com/testcases/CategarySelectionPageTests.class
+com/testcases/BannerPageTests.class
+com/testcases/LogoutPageTests.class
+com/testcases/ContactUsPageTests.class
 com/testcases/LoginPageTests.class

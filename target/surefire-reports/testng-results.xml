@@ -1,35 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="FrameworkDemo" duration-ms="11622" started-at="2020-06-20T04:47:53Z" finished-at="2020-06-20T04:48:05Z">
+  <suite name="FrameworkDemo" duration-ms="28397" started-at="2020-06-27T06:10:26Z" finished-at="2020-06-27T06:10:55Z">
     <groups>
     </groups>
-    <test name="demo" duration-ms="11622" started-at="2020-06-20T04:47:53Z" finished-at="2020-06-20T04:48:05Z">
-      <class name="com.testcases.SignUpPageTests">
-        <test-method status="PASS" signature="initializeBrowsers()[pri:0, instance:com.testcases.SignUpPageTests@51565ec2]" name="initializeBrowsers" is-config="true" duration-ms="6529" started-at="2020-06-20T04:47:53Z" finished-at="2020-06-20T04:48:00Z">
+    <test name="demo" duration-ms="28397" started-at="2020-06-27T06:10:26Z" finished-at="2020-06-27T06:10:55Z">
+      <class name="com.testcases.ProductSelectionTests">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.ProductSelectionTests@c038203]" name="initializeBrowsers" is-config="true" duration-ms="2185" started-at="2020-06-27T06:10:52Z" finished-at="2020-06-27T06:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowsers -->
-        <test-method status="PASS" signature="testSignupflow()[pri:0, instance:com.testcases.SignUpPageTests@51565ec2]" name="testSignupflow" duration-ms="1303" started-at="2020-06-20T04:48:00Z" finished-at="2020-06-20T04:48:01Z">
+        <test-method status="PASS" signature="testListedProduct()[pri:0, instance:com.testcases.ProductSelectionTests@c038203]" name="testListedProduct" duration-ms="66" started-at="2020-06-27T06:10:55Z" finished-at="2020-06-27T06:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListedProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ProductSelectionTests@c038203]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-06-27T06:10:55Z" finished-at="2020-06-27T06:10:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.ProductSelectionTests -->
+      <class name="com.testcases.ContactUsPageTests">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.ContactUsPageTests@6767c1fc]" name="initializeBrowsers" is-config="true" duration-ms="3812" started-at="2020-06-27T06:10:45Z" finished-at="2020-06-27T06:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowsers -->
+        <test-method status="PASS" signature="testContactaUspage()[pri:0, instance:com.testcases.ContactUsPageTests@6767c1fc]" name="testContactaUspage" duration-ms="1362" started-at="2020-06-27T06:10:48Z" finished-at="2020-06-27T06:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactaUspage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.ContactUsPageTests@6767c1fc]" name="tearDown" is-config="true" duration-ms="100" started-at="2020-06-27T06:10:50Z" finished-at="2020-06-27T06:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.ContactUsPageTests -->
+      <class name="com.testcases.CategarySelectionPageTests">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.CategarySelectionPageTests@29ee9faa]" name="initializeBrowsers" is-config="true" duration-ms="2432" started-at="2020-06-27T06:10:50Z" finished-at="2020-06-27T06:10:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowsers -->
+        <test-method status="PASS" signature="testselectCategory()[pri:0, instance:com.testcases.CategarySelectionPageTests@29ee9faa]" name="testselectCategory" duration-ms="151" started-at="2020-06-27T06:10:52Z" finished-at="2020-06-27T06:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testselectCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.CategarySelectionPageTests@29ee9faa]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-06-27T06:10:52Z" finished-at="2020-06-27T06:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.CategarySelectionPageTests -->
+      <class name="com.testcases.BannerPageTests">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.BannerPageTests@4678c730]" name="initializeBrowsers" is-config="true" duration-ms="2585" started-at="2020-06-27T06:10:42Z" finished-at="2020-06-27T06:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowsers -->
+        <test-method status="PASS" signature="testCrousalBanner()[pri:0, instance:com.testcases.BannerPageTests@4678c730]" name="testCrousalBanner" duration-ms="141" started-at="2020-06-27T06:10:44Z" finished-at="2020-06-27T06:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCrousalBanner -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.BannerPageTests@4678c730]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-06-27T06:10:44Z" finished-at="2020-06-27T06:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.BannerPageTests -->
+      <class name="com.testcases.SignUpPageTests">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.SignUpPageTests@39aeed2f]" name="initializeBrowsers" is-config="true" duration-ms="8599" started-at="2020-06-27T06:10:26Z" finished-at="2020-06-27T06:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowsers -->
+        <test-method status="PASS" signature="testSignupflow()[pri:0, instance:com.testcases.SignUpPageTests@39aeed2f]" name="testSignupflow" duration-ms="1331" started-at="2020-06-27T06:10:35Z" finished-at="2020-06-27T06:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignupflow -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpPageTests@51565ec2]" name="tearDown" is-config="true" duration-ms="99" started-at="2020-06-20T04:48:01Z" finished-at="2020-06-20T04:48:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpPageTests@39aeed2f]" name="tearDown" is-config="true" duration-ms="141" started-at="2020-06-27T06:10:36Z" finished-at="2020-06-27T06:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.SignUpPageTests -->
       <class name="com.testcases.LoginPageTests">
-        <test-method status="PASS" signature="initializeBrowsers()[pri:0, instance:com.testcases.LoginPageTests@482f8f11]" name="initializeBrowsers" is-config="true" duration-ms="2275" started-at="2020-06-20T04:48:01Z" finished-at="2020-06-20T04:48:03Z">
+        <test-method status="PASS" signature="initializeBrowsers(java.lang.String)[pri:0, instance:com.testcases.LoginPageTests@724af044]" name="initializeBrowsers" is-config="true" duration-ms="2208" started-at="2020-06-27T06:10:36Z" finished-at="2020-06-27T06:10:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowsers -->
-        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.testcases.LoginPageTests@482f8f11]" name="testLoginPage" duration-ms="1223" started-at="2020-06-20T04:48:03Z" finished-at="2020-06-20T04:48:05Z">
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.testcases.LoginPageTests@724af044]" name="testLoginPage" duration-ms="2908" started-at="2020-06-27T06:10:39Z" finished-at="2020-06-27T06:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTests@482f8f11]" name="tearDown" is-config="true" duration-ms="170" started-at="2020-06-20T04:48:05Z" finished-at="2020-06-20T04:48:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.LoginPageTests@724af044]" name="tearDown" is-config="true" duration-ms="103" started-at="2020-06-27T06:10:42Z" finished-at="2020-06-27T06:10:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

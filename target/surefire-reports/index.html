@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,32 @@
                     <div class="method-list-content passed suite-FrameworkDemo">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.ContactUsPageTests" hash-for-method="testContactaUspage">testContactaUspage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.BannerPageTests" hash-for-method="testCrousalBanner">testCrousalBanner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.ProductSelectionTests" hash-for-method="testListedProduct">testListedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.LoginPageTests" hash-for-method="testLoginPage">testLoginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.SignUpPageTests" hash-for-method="testSignupflow">testSignupflow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FrameworkDemo" title="com.testcases.CategarySelectionPageTests" hash-for-method="testselectCategory">testselectCategory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-FrameworkDemo -->
@@ -125,6 +145,21 @@
           <div class="suite-FrameworkDemo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.testcases.BannerPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCrousalBanner">
+                  </a> <!-- testCrousalBanner -->
+                  <span class="method-name">testCrousalBanner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameworkDemo-class-passed -->
+          <div class="suite-FrameworkDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.testcases.LoginPageTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -133,6 +168,51 @@
                   <a name="testLoginPage">
                   </a> <!-- testLoginPage -->
                   <span class="method-name">testLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameworkDemo-class-passed -->
+          <div class="suite-FrameworkDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.ContactUsPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContactaUspage">
+                  </a> <!-- testContactaUspage -->
+                  <span class="method-name">testContactaUspage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameworkDemo-class-passed -->
+          <div class="suite-FrameworkDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.ProductSelectionTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListedProduct">
+                  </a> <!-- testListedProduct -->
+                  <span class="method-name">testListedProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FrameworkDemo-class-passed -->
+          <div class="suite-FrameworkDemo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.CategarySelectionPageTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testselectCategory">
+                  </a> <!-- testselectCategory -->
+                  <span class="method-name">testselectCategory</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,10 +242,15 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;FrameworkDemo&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;demo&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.testcases.SignUpPageTests&quot;/&gt;
       &lt;class name=&quot;com.testcases.LoginPageTests&quot;/&gt;
+      &lt;class name=&quot;com.testcases.BannerPageTests&quot;/&gt;
+      &lt;class name=&quot;com.testcases.ContactUsPageTests&quot;/&gt;
+      &lt;class name=&quot;com.testcases.CategarySelectionPageTests&quot;/&gt;
+      &lt;class name=&quot;com.testcases.ProductSelectionTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- demo --&gt;
 &lt;/suite&gt; &lt;!-- FrameworkDemo --&gt;
@@ -179,7 +264,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">demo (2 classes)</span>
+                <span class="test-name">demo (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,20 +290,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSignupflow')
-data.setCell(0, 2, 'com.testcases.SignUpPageTests')
-data.setCell(0, 3, 1303);
+data.setCell(0, 1, 'testLoginPage')
+data.setCell(0, 2, 'com.testcases.LoginPageTests')
+data.setCell(0, 3, 2908);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLoginPage')
-data.setCell(1, 2, 'com.testcases.LoginPageTests')
-data.setCell(1, 3, 1223);
+data.setCell(1, 1, 'testContactaUspage')
+data.setCell(1, 2, 'com.testcases.ContactUsPageTests')
+data.setCell(1, 3, 1362);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSignupflow')
+data.setCell(2, 2, 'com.testcases.SignUpPageTests')
+data.setCell(2, 3, 1331);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testselectCategory')
+data.setCell(3, 2, 'com.testcases.CategarySelectionPageTests')
+data.setCell(3, 3, 151);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCrousalBanner')
+data.setCell(4, 2, 'com.testcases.BannerPageTests')
+data.setCell(4, 3, 141);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testListedProduct')
+data.setCell(5, 2, 'com.testcases.ProductSelectionTests')
+data.setCell(5, 3, 66);
 window.suiteTableData['FrameworkDemo']= { tableData: data, tableDiv: 'times-div-FrameworkDemo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-FrameworkDemo">
               </div> <!-- times-div-FrameworkDemo -->
             </div> <!-- times-div -->
@@ -246,31 +347,91 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.SignUpPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">initializeBrowsers</span>
+                <span class="method-name">initializeBrowsers(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testSignupflow</span>
-                <span class="method-start">6540 ms</span>
+                <span class="method-start">8606 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7845 ms</span>
+                <span class="method-start">9939 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcases.LoginPageTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">initializeBrowsers</span>
-                <span class="method-start">7945 ms</span>
+                <span class="method-name">initializeBrowsers(chrome)</span>
+                <span class="method-start">10081 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLoginPage</span>
-                <span class="method-start">10221 ms</span>
+                <span class="method-start">12289 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11444 ms</span>
+                <span class="method-start">15197 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.BannerPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowsers(chrome)</span>
+                <span class="method-start">15300 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testCrousalBanner</span>
+                <span class="method-start">17885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18026 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.ContactUsPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowsers(chrome)</span>
+                <span class="method-start">18112 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testContactaUspage</span>
+                <span class="method-start">21924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23286 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.CategarySelectionPageTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowsers(chrome)</span>
+                <span class="method-start">23386 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testselectCategory</span>
+                <span class="method-start">25819 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25970 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.ProductSelectionTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initializeBrowsers(chrome)</span>
+                <span class="method-start">26050 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testListedProduct</span>
+                <span class="method-start">28236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28302 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

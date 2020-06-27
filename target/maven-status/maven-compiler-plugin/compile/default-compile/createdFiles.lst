@@ -1,4 +1,9 @@
 com/pages/BasePage.class
-com/pages/LoginPage.class
 com/pages/SignupPage.class
+com/pages/LogoutPage.class
+com/pages/CategarySelectionPage.class
 com/pages/HomePage.class
+com/pages/LoginPage.class
+com/pages/ProductSelectionPage.class
+com/pages/ContactPage.class
+com/pages/BannerPage.class
