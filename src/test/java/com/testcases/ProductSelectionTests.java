@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class ProductSelectionTests extends TestBase {
 
     HomePage homePage;
+    protected String productName;
 
     @Test
     public void testListedProduct(){
@@ -20,10 +21,10 @@ public class ProductSelectionTests extends TestBase {
 //        String productname = selectionPage.getProductName();
 //        System.out.println("Product Name is : " + productname);
 
-        String price = selectionPage.getPrice(1);
-        System.out.println("Product price is :"+ price);
+//        String price = selectionPage.getPrice(1);
+//        System.out.println("Product price is :"+ price);
         System.out.println("product is getting selected");
-        String productName = selectionPage.getProduct(1);
+        productName = selectionPage.getProduct(1);
         System.out.println("product is selected :" + productName);
         driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
         System.out.println(driver.getCurrentUrl());

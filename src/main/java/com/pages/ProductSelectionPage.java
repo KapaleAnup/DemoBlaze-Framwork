@@ -16,7 +16,10 @@ public class ProductSelectionPage extends BasePage {
     protected String prodctuPrice;
     protected String listOfProducts;
 
-    @FindBy(xpath = "//div[@id='tbodyid']//div//div//a")
+//    @FindBy(xpath = "//div[@id='tbodyid']//div//div//a")
+//    private List<WebElement> productList;
+
+    @FindBy(xpath = "//div[@class='card h-100']")
     private List<WebElement> productList;
 
     @FindBy(xpath = "//h2[@class='name']")
@@ -49,14 +52,14 @@ public class ProductSelectionPage extends BasePage {
     public String getProductName(){
        return rewadText(productName);
     }
-
+/*
     public String getPrice(int index){
         for(int i= 0; i<price.size();i++){
             prodctuPrice = price.get(index).getText();
             System.out.println("Product price is : "+ prodctuPrice);
         }
       return prodctuPrice;
-    }
+    }*/
 
 
 }
