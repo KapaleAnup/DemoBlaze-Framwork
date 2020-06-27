@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrameworkDemo">
+    <parameter name="browser" value="chrome"/>
+    <test name="demo">
+
+        <classes>
+            <!--<class name="com.testcases.SignUpPageTests"/>-->
+            <!--<class name="com.testcases.LoginPageTests"/>-->
+            <!--&lt;!&ndash;<class name="com.testcases.LogoutPageTests"/>&ndash;&gt;-->
+            <!--<class name="com.testcases.BannerPageTests"/>-->
+            <!--<class name="com.testcases.ContactUsPageTests"/>-->
+            <!--<class name="com.testcases.CategarySelectionPageTests"/>-->
+            <class name="com.testcases.ProductSelectionTests"/>
+        </classes>
+    </test>
+</suite>
