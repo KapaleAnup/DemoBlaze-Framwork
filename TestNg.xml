@@ -5,12 +5,12 @@
     <test name="demo">
 
         <classes>
-            <class name="com.testcases.SignUpPageTests"/>
-            <class name="com.testcases.LoginPageTests"/>
-            <!--<class name="com.testcases.LogoutPageTests"/>-->
-            <class name="com.testcases.BannerPageTests"/>
-            <class name="com.testcases.ContactUsPageTests"/>
-            <class name="com.testcases.CategarySelectionPageTests"/>
+            <!--<class name="com.testcases.SignUpPageTests"/>-->
+            <!--<class name="com.testcases.LoginPageTests"/>-->
+            <!--&lt;!&ndash;<class name="com.testcases.LogoutPageTests"/>&ndash;&gt;-->
+            <!--<class name="com.testcases.BannerPageTests"/>-->
+            <!--<class name="com.testcases.ContactUsPageTests"/>-->
+            <!--<class name="com.testcases.CategarySelectionPageTests"/>-->
             <class name="com.testcases.ProductSelectionTests"/>
         </classes>
     </test>
