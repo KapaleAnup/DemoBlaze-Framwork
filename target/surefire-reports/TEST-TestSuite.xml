@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.349" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.432" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="DemoBaze"/>
@@ -26,8 +26,8 @@
     <property name="SECURITYSESSIONID" value="186a9"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="DemoBaze"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/DemoBaze/5/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/DemoBaze/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
     <property name="TMPDIR" value="/var/folders/xt/40gbcj9d3q18xdztl_wgzhlr0000gn/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
     <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="99285fc181ef163f55d751b4b9c713c3fdc0cce7"/>
@@ -40,7 +40,7 @@
     <property name="ZSH" value="/Users/anupkapale/.oh-my-zsh"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="5"/>
+    <property name="BUILD_ID" value="6"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,7 +54,7 @@
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.14.6"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/DemoBaze/5/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/DemoBaze/6/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
@@ -74,7 +74,7 @@
     <property name="LC_TERMINAL_VERSION" value="3.3.11"/>
     <property name="POM_GROUPID" value="com.browserstack"/>
     <property name="user.home" value="/Users/anupkapale"/>
-    <property name="BUILD_TAG" value="jenkins-DemoBaze-5"/>
+    <property name="BUILD_TAG" value="jenkins-DemoBaze-6"/>
     <property name="JENKINS_SERVER_COOKIE" value="0965ab612b9948c6"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -89,7 +89,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
     <property name="java.class.path" value="/Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.5.2.jar:/Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven /Users/anupkapale/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 50619"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven /Users/anupkapale/.jenkins/war/WEB-INF/lib/remoting-4.2.jar /Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 50786"/>
     <property name="JAVA_MAIN_CLASS_1335" value="Main"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -99,7 +99,7 @@
     <property name="java.io.tmpdir" value="/var/folders/xt/40gbcj9d3q18xdztl_wgzhlr0000gn/T/"/>
     <property name="HUDSON_HOME" value="/Users/anupkapale/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/DemoBaze/5/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/DemoBaze/6/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="OLDPWD" value="/Users/anupkapale"/>
     <property name="PAGER" value="less"/>
@@ -117,13 +117,13 @@
     <property name="JAVA_ARCH" value="x86_64"/>
     <property name="MAVEN_HOME" value="/Users/anupkapale/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="6"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="TERM_PROGRAM_VERSION" value="3.3.11"/>
     <property name="GIT_BRANCH" value="origin/master"/>
     <property name="COLORTERM" value="truecolor"/>
     <property name="ITERM_SESSION_ID" value="w0t0p0:016243BB-CA63-448C-A4A2-FFB76E601A42"/>
-    <property name="GIT_COMMIT" value="99285fc181ef163f55d751b4b9c713c3fdc0cce7"/>
+    <property name="GIT_COMMIT" value="b580cc318589dcb7f6b5640a3e6db036dd95b21f"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="LESS" value="-R"/>
     <property name="maven3.interceptor" value="/Users/anupkapale/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
@@ -134,5 +134,5 @@
     <property name="USER" value="anupkapale"/>
     <property name="GIT_URL" value="https://github.com/KapaleAnup/DemoBlaze-Framwork"/>
   </properties>
-  <testcase name="testListedProduct" classname="com.testcases.ProductSelectionTests" time="0.039"/>
+  <testcase name="testListedProduct" classname="com.testcases.ProductSelectionTests" time="0.037"/>
 </testsuite>
