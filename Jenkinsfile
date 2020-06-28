@@ -3,10 +3,11 @@ pipeline {
   stages {
     stage('Build Dev') {
       parallel {
+        stage('Build Dev') {
           steps {
             sh 'mvn clean install -DskipTests=true'
           }
-
+        }
 
         stage('chrome') {
           steps {
@@ -15,12 +16,11 @@ pipeline {
         }
 
       }
-      }
-      }
-
+    }
 
     stage('Build QA') {
       parallel {
+        stage('Build QA') {
           steps {
             sh 'mvn clean install -DskipTests=true'
           }
@@ -43,6 +43,7 @@ pipeline {
 
     stage('Build Stage') {
       parallel {
+        stage('Build Stage') {
           steps {
             sh 'mvn clean install -DskipTests=true'
           }
@@ -61,4 +62,8 @@ pipeline {
         }
 
       }
+    }
 
+  }
+
+}
